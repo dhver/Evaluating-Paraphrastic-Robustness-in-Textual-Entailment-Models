@@ -1,10 +1,10 @@
-# Determining-Robustness-of-NLU-Models
+# Evaluating-Paraphrastic-Robustness-in-Textual-Entailment-Models
 
 This file is best viewed in a Markdown reader (eg. https://jbt.github.io/markdown-editor/)
 
 ## Overview
 
-This repository contains the code and data we used to test how NLP models perform when subjected to meaning preserving yet lexically different sentences for the task of sentence entailment. Currently, the repository supports training and testing a BiLSTM, CBOW, BERT and RoBERTa models. It has support to run inference on GPT-3 using OpenAI's API. It also has support to generate paraphrases for a given entailment dataset.
+This repository contains the code and data we used to test how NLP models perform when subjected to meaning preserving yet lexically different sentences for the task of sentence entailment. It is the repository linked to our paper "Evaluating Paraphrastic Robustness in Textual Entailment Models" published in ACL 2023. Currently, the repository supports training and testing a BiLSTM, CBOW, BERT and RoBERTa models. It has support to run inference on GPT-3 using OpenAI's API. It also has support to generate paraphrases for a given entailment dataset.
 
 ## Setup
 
